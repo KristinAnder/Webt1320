@@ -1,5 +1,5 @@
 body {
-    background-color: #5E5F62;
+    background-color: #53AF2F;
     font-size: 18px;
     font-family: 'Comic Neue', cursive;
 }
@@ -13,13 +13,13 @@ img {
 /* Mobile Styles */
 
 #container {
-    background-color: #E6E7E8;
+    background-color: whitesmoke;
     margin: 20px;
 }
 
 header {
     padding: 60px 40px;
-    border-bottom: 4px solid #F29422;
+    border-bottom: 4px solid #53AF2F;
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header h1 {
 }
 
 .col {
-    border: 4px solid #F29422;
+    border: 4px solid #53AF2F;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
@@ -52,7 +52,7 @@ header h1 {
 footer {
     padding: 60px 0;
     text-align: center;
-    border-top: 4px solid #F29422;
+    border-top: 4px solid #53AF2F;
     font-weight: bold;
     font-family: 'Comic Neue', cursive;
     font-size: 1em;
@@ -60,6 +60,7 @@ footer {
 
 /* Tablet View */
 @media(min-width: 768px) {
+
     #container {
         width: 90%;
         margin: 20px auto;
@@ -97,7 +98,7 @@ footer {
 
     .main_img {
         display: block;
-        width: 50%;
+        width: 15%;
         margin: 20px auto;
     }
 }
